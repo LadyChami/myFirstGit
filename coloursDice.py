@@ -18,7 +18,6 @@ def write_log_file(outputfilename, data):
     f.close()
 
 
-
 def get_color_by_dice_naive(spots):
     if spots == 1:
         color = 'blue'
