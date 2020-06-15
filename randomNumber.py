@@ -13,12 +13,12 @@ def get_random_number(start, end):
 
 
 def write_log_file(outputfilename, data):
-    f = open(outputfilename + ".log", "a")
+    f = open(output_file + ".log", "a")
     f.write("My randomly generated number is " + str(data) + " (" + time.strftime("%H:%M:%S") + ")\n")
     f.close()
 
 
 if __name__ == "__main__":
-    outputfilename = "randomNumber"
+    output_file = "randomNumber"
     roll = get_random_number(1, 100)
-    write_log_file(outputfilename, roll)
+    write_log_file(output_file, roll)
