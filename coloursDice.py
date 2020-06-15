@@ -29,12 +29,12 @@ def get_color_by_dice_naive(spots):
         color = 'yellow'
     elif spots == 5:
         color = 'purple'
-    else:
-        color = 'orange'
+    else: color = 'orange'
     return color
+
 
 if __name__ == "__main__":
     output_file = "randomNumber"
     roll = get_random_number(1, 6)
-    color = get_color_by_dice(roll)
+    color = get_color_by_dice_naive(roll)
     write_log_file(output_file, roll)
