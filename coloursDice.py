@@ -29,7 +29,7 @@ def get_color_by_dice_naive(spots):
         color = 'yellow'
     elif spots == 5:
         color = 'purple'
-    else: spots == 6:
+    else:
         color = 'orange'
     return color
 
