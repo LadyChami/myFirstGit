@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # team: Wenqi, Tatiana, Elisabeth
+# todays date:16.06.20
 
 import random
 import time
