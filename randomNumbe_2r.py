@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: Wenqi, Tatiana, Elisabeth, Moonbean
+# team: Wenqi, Tatiana, Elisabeth
 
 import random
 import time
