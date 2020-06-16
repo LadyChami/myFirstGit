@@ -39,11 +39,11 @@ if __name__ == "__main__":
     roll = get_random_number(1, 6)
     color = get_color_by_dice_roll(roll)
     write_log_file(output_file, roll)
-    rolls=[]
+    dice_rolls=[]
     for i in range(6):
         roll = get_random_number(1, 6)
-        rolls.append(roll)
-    print(rolls)
+        dice_rolls.append(roll)
+    print(dice_rolls)
     sys.stdout.flush()
-    plt.bar(range(6),rolls)
+    plt.bar(range(6),dice_rolls)
     plt.show()
