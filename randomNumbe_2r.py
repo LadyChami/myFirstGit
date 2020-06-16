@@ -38,7 +38,7 @@ def get_color_by_dice_roll(spots):
 if __name__ == "__main__":
     output_file = "randomNumber"
     roll = get_random_number(1, 6)
-    color = get_color_by_dice_roll(roll)
+    colors = get_color_by_dice_roll(roll)
     write_log_file(output_file, roll)
     dice_rolls=[]
     for i in range(6):
