@@ -45,5 +45,5 @@ if __name__ == "__main__":
         dice_rolls.append(roll)
     print(dice_rolls)
     sys.stdout.flush()
-    plt.bar(range(6),dice_rolls)
+    plt.barh(range(6),dice_rolls)
     plt.show()
